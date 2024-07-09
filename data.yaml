@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['cat', 'dog', 'man', 'soldier', 'tank', 'woman']
+
+roboflow:
+  workspace: satyyams-worskshop
+  project: detection-wryqk
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/satyyams-worskshop/detection-wryqk/dataset/6
